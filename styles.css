@@ -1,0 +1,26 @@
+.texts {
+  font-size: normal;
+  font-weight: 300;
+  margin-top: 30px; 
+  margin-left: 20px;
+  width: 1200px;
+  display: block;
+}
+.images img {
+  margin-top: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  display: block;
+}
+.links {
+  font-size: large;
+  font-weight: 300;
+  margin-top: 35px; 
+  margin-left: 25px;
+  display: block;
+}
+.everything {
+  background: #1e2d2e;
+  color: #b4c0ed;
+}
