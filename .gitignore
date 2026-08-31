@@ -14,15 +14,12 @@ Icon_
 
 # Node / Package managers (if used)
 node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 .eslintcache
 
 # Production builds (if using bundlers)
-dist/
-build/
-out/
+# dist/
+# build/
+# out/
 
 # Logs
 *.log
