@@ -1,24 +1,31 @@
 .text {
-  font-weight: 350;
+  font-weight: 400;
   padding: 5px 8px;
   margin: 25px 20px 0 20px;
   width: auto;
   border: 3px solid black;
   border-radius: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: -2px 2px 2px black;
 }
-.flex-extension {
+#flex-extension {
   display: flex;
   flex-direction: row; 
   justify-content: space-around;
   align-items: center; 
 }
-.flex-extension2 {
+#flex-extension2 {
   display: flex;
   flex-direction: row; 
   justify-content: center;
   align-items: center; 
   gap: 7px;
+}
+#flex-extension3 {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  gap: 0px;
 }
 .images {
   margin: 20px 20px 0 20px;
@@ -36,8 +43,22 @@
 .center {
   text-align: center;
 }
+.btn {
+  margin: 25px auto 0 auto;
+  width: 130px;
+  height: 45px;
+  display: block;
+  font-size: x-large;
+  font-family: inherit;
+}
+@font-face {
+  font-family: Pusab;
+  src: url(PUSAB.otf);
+}
 .everything {
-  background: #1e2a2e;
-  color: #b4c0ed;
+  background-image: url(media/background.webp);
+  background-size: cover;
+  color: dodgerblue;
   padding-left: 5px;
+  font-family: "Pusab", sans-serif;
 }
