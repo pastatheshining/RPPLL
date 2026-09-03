@@ -4,7 +4,7 @@
   margin: 25px 20px 0 20px;
   width: auto;
   border: 3px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
   text-shadow: -2px 2px 2px black;
 }
 #flex-extension {
@@ -26,6 +26,9 @@
   justify-content: center;
   align-items: center; 
   gap: 0px;
+}
+#contrast {
+  text-shadow: 0 0 2px whitesmoke;
 }
 .images {
   margin: 20px 20px 0 20px;
@@ -51,12 +54,29 @@
   font-size: x-large;
   font-family: inherit;
 }
+.logreg{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+}
+.logreg button{
+  font-family: "Pusab", sans-serif;
+  width: auto;
+  height: 23px;
+  font-size: small;
+}
+.logreg button:hover  {
+  background: #CCCCCC;
+  font-size: medium;
+}
 @font-face {
   font-family: Pusab;
   src: url(PUSAB.otf);
 }
 .everything {
-  background-image: url(media/background.webp);
+  background: url(media/background.webp);
   background-size: cover;
   color: dodgerblue;
   padding-left: 5px;
